@@ -41,7 +41,6 @@ if (!empty($_POST)) {
 <body>
 <header class="fcf-body">
     <a class="fcf-label" href="table.php"> Statuses </a>
-    <inp
 </header>
 <main>
     <div class="fcf-body">
