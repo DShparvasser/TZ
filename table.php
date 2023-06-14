@@ -38,7 +38,8 @@
                     style="margin-top: 15px">
                 Start filter
             </button>
-            <button onclick="clearGetParams()" type="reset" id="fcf-button" class="fcf-btn-reset fcf-btn-reset fcf-btn-lg fcf-btn-block"
+            <button onclick="clearGetParams()" type="reset" id="fcf-button"
+                    class="fcf-btn-reset fcf-btn-reset fcf-btn-lg fcf-btn-block"
                     style="margin-top: 15px; margin-left: 10px">
                 Reset filter
             </button>

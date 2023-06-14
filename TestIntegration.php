@@ -175,7 +175,7 @@ class TestIntegration
             return false;
         }
 
-        $leadsDB = $this->db->select('leads', 'id, email, sstatus, ftd');
+        $leadsDB = $this->db->select('leads', 'id, email, status, ftd');
 
         foreach ($leadsDB as $leadDB) {
             $leadBroker = $this->searchItemInArray($leadDB['email'], $result);
